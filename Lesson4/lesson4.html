@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .back{
+        margin-right: 10px;
+        padding: 4px 20px;
+    }
+    .next{
+        margin-left: 10px;
+        padding: 4px 20px;
+    }
+    .back:hover{
+        cursor: pointer;
+    }
+    .next:hover{
+        cursor: pointer;
+    }
+    .page{
+        margin-left: 7px;
+        margin-right: 7px ;
+    }
+
+    .strech{
+        padding: 9px 25px;
+        color: white;
+        border: none;
+        background-color: green;
+        transition: background-color 0.15s;
+    }
+
+    .strech:hover{
+        padding: 15px 35px;
+        cursor: pointer;
+    }
+
+    .shadow{
+        padding: 9px 25px;
+        color: white;
+        border: none;
+        background-color: green;
+        transition: background-color 0.15s;
+        cursor: pointer;
+    }
+
+    .shadow:active{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+    }
+
+    .margin{
+        padding: 6px 20px;
+        color: white;
+        border: none;
+        margin-right: 10px;
+        background-color: green;
+        transition: background-color 0.15s;
+        cursor: pointer;
+    }
+    .margin:hover{
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <!--Pagination-->
+
+    <button class="back">Back</button>
+    <a class= "page" href="lesson4.html" target="_blank">1</a>
+    <a class= "page" href="lesson4.html" target="_blank">2</a>
+
+    <a class= "page" href="lesson4.html" target="_blank">3</a>
+    <a class= "page" href="lesson4.html" target="_blank">4</a>
+    <a class= "page" href="lesson4.html" target="_blank">5</a>
+    <button class="next">Next</button>
+    
+<br> <br>
+    <!--Strech-->
+
+    <button class="strech">Strech</button>
+
+    <br> <br>
+    <!--3D Click Shadow-->
+
+    <button class="shadow">Shadow</button>
+
+    <!--Margin and padding together-->
+    <br><br>
+            
+    <button class=" margin">One</button>
+    <button class=" margin">Two</button>
+    <button class=" margin">Three</button>
+
+    
+</body>
+</html>
