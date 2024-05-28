@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Request-Form</title>
+</head>
+<style>
+    .request{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .location-box, .destination-box{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(234, 229, 229);
+        color: rgb(102, 100, 100);
+        border: none;
+        padding-right: 104px;
+        padding-left: 6px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 6px;
+        display: block;
+    
+    }   
+    .uber-request{
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        vertical-align: middle;
+        border: none; 
+        margin-top: 8px;
+        padding: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .uber-request:active{
+        opacity: 0.5;
+    }
+
+    .uber-schedule{
+        vertical-align: middle;
+        color: black;
+        font-size: 10px;
+        background-color: rgb(204, 203, 203);
+        border: none;
+        margin-top: 8px;
+        padding: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+
+    .uber-schedule:active{
+        opacity: 0.5;
+    }
+</style>
+<body>
+    <p class="request">Request a ride now</p>
+    <input class="location-box" type="text" placeholder="Enter pickup location">
+    <input class="destination-box" type="text" placeholder="Enter destination">
+    <button class="uber-request">Request now</button>
+    <button class="uber-schedule">Schedule for later</button>
+</body>
+</html>
