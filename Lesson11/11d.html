@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-Friend</title>
+</head>
+<style>
+    .dog{
+        height: 100px;
+        width: 100px;
+        object-position: m;
+    }
+    .fb-name{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 3px;
+        margin-bottom: 0px;
+        padding-left: 3px;
+    }
+    .fb-friend{
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        margin-top: 2px;
+        padding-left: 3px;
+    }
+    .add-friend{
+        background-color:rgb(18, 108, 199);
+        color: white;
+        font-size: 8px;
+        border: none;
+        width: 80px;
+        padding: 8px;
+        border-radius: 4px;
+        margin-left: 4px;
+        margin-bottom: 4px;
+        cursor: pointer;
+
+    }
+
+    .add-friend:active{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .object-1{
+        width: 100px;
+        box-shadow:3px 3px 8px rgba(3, 3, 3, 0.15);
+        align-items: center;
+    }
+    .grid-main{
+        margin-left: 80px;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        column-gap: 15px;
+
+    }
+</style>
+<body>
+    <div class="grid-main">
+        <div class="object-1">
+            <img class="dog" src="dog.jpg" alt="">
+            <p class="fb-name">Oliver</p>
+            <p class="fb-friend">2 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>   
+        
+        <div class="object-1">
+            <img class="dog" src="cat.jpg" alt="">
+            <p class="fb-name">Mimi</p>
+            <p class="fb-friend">3 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+        <div>
+            <div class="object-1">
+                <img class="dog" src="penguin.jpeg" alt="">
+                <p class="fb-name">Rex</p>
+                <p class="fb-friend">4 mutual friends</p>
+                <button class="add-friend">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
