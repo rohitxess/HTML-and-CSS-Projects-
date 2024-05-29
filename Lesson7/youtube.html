@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.Com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .thumbnail{
+            width: 100%;
+        }
+        .p{
+            font-family: roboto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .search-box{
+            display: block;
+        }
+        .channel-picture1{
+            width: 80%;
+            border-radius: 100px;
+        }
+        .channel-picture12{
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            object-position: right
+            
+        }
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .video-title{
+            margin-top: 0px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+        }
+        .thumbnail-row{
+            margin-bottom: 20px;
+        }
+        .video-author,
+        .video-stats{
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            padding-bottom: 2px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .video-author{
+            margin-bottom:4px ;
+        }
+        .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+    </style>
+</head>
+<body>
+    <input class="search-box" type="text" placeholder="Search">
+    <div class="video-grid">
+        <div class="video-preview">  
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="maxresdefault.jpeg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-picture1" src="channels4_profile.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats"> 3.4M Views &middot; 6 Months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">  
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="laugh.jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-picture12" src="channel-2.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    <p class="video-author">Markiplier</p>
+                    <p class="video-stats"> 19M Views &middot; 4 Years ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">  
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-3.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-picture1" src="channel-3.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Crazy Tik Toks Taken Moments Before Disaster</p>
+                    <p class="video-author">SSSniperWolf</p>
+                    <p class="video-stats"> 12M Views &middot; 1 Year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">  
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-4.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-picture12" src="channel-4.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The Simplest Math Problem No One Can Solve</p>
+                    <p class="video-author">Veritasium</p>
+                    <p class="video-stats"> 18M Views &middot; 4 Months ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">  
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-5.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-picture1" src="channel-5.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                    <p class="video-author">CS Dojo</p>
+                    <p class="video-stats"> 519K Views &middot; 5 Years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">  
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-6.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-picture12" src="channel-6.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+                    <p class="video-author">MrBeast</p>
+                    <p class="video-stats"> 141M Views &middot; 1 Year ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
