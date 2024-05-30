@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .main-flexbox{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .row2-flex{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .row21, .row22{
+          background-color: black;
+          color: white;
+          display: flex;
+          flex-direction: row;
+          margin-top: 1px;
+        }
+        .row1{
+          margin-bottom: 0px;
+          font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-flexbox">
+        <div class="pink-flexbox" style="background-color: pink; width: 100px; height: 100px;">
+            <p></p>
+        </div>
+        <div class="=blue-flexbox" style="background-color: lightblue; width: 200px; height: 100px;">
+          <div>
+            <p class="row1">Row 1</p>
+          </div>  
+          <div class="row2-flex">
+            <p class="row21">row 2</p>
+            <p class="row22">row 2</p>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
