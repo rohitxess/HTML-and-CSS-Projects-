@@ -1,0 +1,30 @@
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-title{
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+.thumbnail-row{
+    margin-bottom: 20px;
+}
+.video-author,
+.video-stats{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    padding-bottom: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.video-author{
+    margin-bottom:4px ;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
